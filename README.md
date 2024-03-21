@@ -2,7 +2,7 @@
 
 A simple calculator I made with React (via Vite). Includes keyboard shortcuts and basic accessibility features.
 
-To run the demo, run these commands:
+To try the demo, run these commands:
 
 ```
 npm i
