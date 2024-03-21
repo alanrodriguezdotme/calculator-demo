@@ -21,5 +21,6 @@ Then visit https://localhost:5173 in the browser to view the app.
 ## Things I would improve
 
 - Increase text opacity on buttons to improve contrast
+  <img width="1086" alt="CleanShot 2024-03-20 at 17 53 37@2x" src="https://github.com/alanrodriguezdotme/calculator-demo/assets/8881195/a1e47603-1997-412b-a0a9-d62adef8f8eb">
 - Add theming
 - Add scientific calculator mode
