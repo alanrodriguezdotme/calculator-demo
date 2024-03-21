@@ -1,0 +1,16 @@
+@import "base";
+
+.display {
+  background-color: $displayBackgroundColor;
+  border: 0;
+  font-family: $fontFamily;
+  font-size: $displayTextSize;
+  border-radius: $borderRadius;
+  height: 80px;
+  display: flex;
+  justify-content: flex-end;
+  text-align: right;
+  text-shadow: $displayTextShadow;
+  padding: 20px;
+  grid-column: span 4;
+}

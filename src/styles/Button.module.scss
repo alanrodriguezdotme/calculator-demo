@@ -1,0 +1,40 @@
+@import "base";
+
+.button {
+  min-width: 60px;
+  height: 60px;
+  display: flex;
+  font-family: $fontFamily;
+  font-size: 1.5rem;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 4px 8px;
+  border: 0;
+  border-radius: $borderRadius;
+  color: $buttonTextColor;
+
+  &.doubleWide {
+    grid-column: span 2;
+  }
+
+  &.operator {
+    background-color: $operatorButtonBackgroundColor;
+    text-shadow: $operatorButtonTextShadow;
+
+    &.next {
+      background-color: $operatorActiveButtonBackgroundColor;
+      text-shadow: $operatorButtonTextShadow;
+    }
+  }
+
+  &.utility {
+    background-color: $utilityButtonBackgroundColor;
+    text-shadow: $utilityButtonTextShadow;
+  }
+
+  &.number {
+    background-color: $buttonBackgroundColor;
+    color: $buttonTextColor;
+    text-shadow: $buttonTextShadow;
+  }
+}
